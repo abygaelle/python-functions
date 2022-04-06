@@ -6,6 +6,12 @@ def sum_to(num):
     sum += n
   print(sum)
 # challenge 2
+def largest(nums):
+  largestNum = 0
+  for num in nums:
+    if num > largestNum:
+      largestNum = num
+  print(largestNum)
 
 # challenge 3
 
