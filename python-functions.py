@@ -19,4 +19,8 @@ def occurrances(str1, str2):
 
 # challenge 4
 
-
+def product(*args):
+  total = 1
+  for num in args:
+    total *= num
+  print(total)
