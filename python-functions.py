@@ -14,6 +14,8 @@ def largest(nums):
   print(largestNum)
 
 # challenge 3
+def occurrances(str1, str2):
+  print(str1.count(str2))
 
 # challenge 4
 
